@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+env/
+
+# Environment
+.env
+
+# Node
+node_modules/
+.next/
+
+# DB / uploads
+*.sqlite3
+uploads/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+
+# Models / large files
+models/*.bin
+models/*.pt
+models/*.onnx

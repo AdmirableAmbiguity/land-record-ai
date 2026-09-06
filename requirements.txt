@@ -1,0 +1,17 @@
+# Core backend
+fastapi
+uvicorn[standard]
+sqlalchemy
+psycopg2-binary
+python-multipart
+pydantic
+
+# OCR / AI (Member 1)
+pillow
+opencv-python-headless
+pytesseract
+pdf2image
+
+# Testing
+pytest
+httpx
